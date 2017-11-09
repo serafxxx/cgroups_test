@@ -29,7 +29,7 @@ Activate virtual environment
     
 Install dependencies
 
-    pip install -R requirements.txt
+    pip install -r requirements.txt
     
 Run tests
     
