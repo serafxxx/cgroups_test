@@ -1,11 +1,16 @@
 # Cgroups test
 
-Test project to demonstrate cgroups django module functionality
+Very simple cgroups api. Currently supported:
+
+* Create new cgroup
+* Place a process (PID) into a cgroup
+* List the tasks (PIDs) for a given cgroup 
 
 ## Installation
-Be sure to have python2.7 and virtualenv installed. `cgroups` under `/sys/fs`
+Be sure to have python2.7 and virtualenv installed. Linux kernel should support cgroups and
+`cgroups` should be under `/sys/fs`
 
-    git clone ...
+    git clone https://github.com/serafxxx/cgroups_test.git
     cd cgroups_test
 
 Create virtual environment for the project
