@@ -4,5 +4,5 @@ from __future__ import unicode_literals
 from django.apps import AppConfig
 
 
-class CgroupsConfig(AppConfig):
-    name = 'cgroups'
+class CgapiConfig(AppConfig):
+    name = 'cgapi'
